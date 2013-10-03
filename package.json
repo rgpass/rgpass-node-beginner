@@ -4,10 +4,8 @@
   "description": "Going through the guide The Node Begineer",
   "main": "index.js",
   "dependencies": {
-  	"http": "*",
   	"url": "*",
   	"querystring": "*",
-  	"fs": "*",
   	"formidable": "*"
   },
   "engines": {

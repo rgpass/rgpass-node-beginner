@@ -1,0 +1,190 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 warn package.json rgpass-node-beginner@0.0.1 No repository field.
+5 warn package.json rgpass-node-beginner@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/rgpass/node_projects/node-beginner',
+7 verbose install   [ 'http', 'url', 'querystring', 'fs', 'formidable' ] ]
+8 info preinstall rgpass-node-beginner@0.0.1
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'querystring@*', null ]
+11 verbose cache add name=undefined spec="querystring@*" args=["querystring@*",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'querystring@*',
+12 verbose parsed url   path: 'querystring@*',
+12 verbose parsed url   href: 'querystring@*' }
+13 verbose cache add name="querystring" spec="*" args=["querystring","*"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '*',
+14 verbose parsed url   path: '*',
+14 verbose parsed url   href: '*' }
+15 verbose addNamed [ 'querystring', '*' ]
+16 verbose addNamed [ null, '*' ]
+17 verbose cache add [ 'fs@*', null ]
+18 verbose cache add name=undefined spec="fs@*" args=["fs@*",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'fs@*',
+19 verbose parsed url   path: 'fs@*',
+19 verbose parsed url   href: 'fs@*' }
+20 verbose cache add name="fs" spec="*" args=["fs","*"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '*',
+21 verbose parsed url   path: '*',
+21 verbose parsed url   href: '*' }
+22 verbose addNamed [ 'fs', '*' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 69751c4d-querystring querystring@*
+25 verbose lock querystring@* /Users/rgpass/.npm/69751c4d-querystring.lock
+26 silly lockFile d8bf140d-fs fs@*
+27 verbose lock fs@* /Users/rgpass/.npm/d8bf140d-fs.lock
+28 verbose already installed skipping formidable@* /Users/rgpass/node_projects/node-beginner
+29 silly addNameRange { name: 'querystring', range: '*', hasData: false }
+30 silly addNameRange { name: 'fs', range: '*', hasData: false }
+31 verbose url raw querystring
+32 verbose url resolving [ 'https://registry.npmjs.org/', './querystring' ]
+33 verbose url resolved https://registry.npmjs.org/querystring
+34 info trying registry request attempt 1 at 14:29:35
+35 http GET https://registry.npmjs.org/querystring
+36 verbose cache add [ 'url@*', null ]
+37 verbose cache add name=undefined spec="url@*" args=["url@*",null]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: 'url@*',
+38 verbose parsed url   path: 'url@*',
+38 verbose parsed url   href: 'url@*' }
+39 verbose cache add name="url" spec="*" args=["url","*"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '*',
+40 verbose parsed url   path: '*',
+40 verbose parsed url   href: '*' }
+41 verbose addNamed [ 'url', '*' ]
+42 verbose addNamed [ null, '*' ]
+43 silly lockFile cc65f1b2-url url@*
+44 verbose lock url@* /Users/rgpass/.npm/cc65f1b2-url.lock
+45 verbose cache add [ 'http@*', null ]
+46 verbose cache add name=undefined spec="http@*" args=["http@*",null]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'http@*',
+47 verbose parsed url   path: 'http@*',
+47 verbose parsed url   href: 'http@*' }
+48 verbose cache add name="http" spec="*" args=["http","*"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '*',
+49 verbose parsed url   path: '*',
+49 verbose parsed url   href: '*' }
+50 verbose addNamed [ 'http', '*' ]
+51 verbose addNamed [ null, '*' ]
+52 silly lockFile 67b29158-http http@*
+53 verbose lock http@* /Users/rgpass/.npm/67b29158-http.lock
+54 verbose url raw fs
+55 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+56 verbose url resolved https://registry.npmjs.org/fs
+57 info trying registry request attempt 1 at 14:29:35
+58 http GET https://registry.npmjs.org/fs
+59 silly addNameRange { name: 'url', range: '*', hasData: false }
+60 silly addNameRange { name: 'http', range: '*', hasData: false }
+61 verbose url raw url
+62 verbose url resolving [ 'https://registry.npmjs.org/', './url' ]
+63 verbose url resolved https://registry.npmjs.org/url
+64 info trying registry request attempt 1 at 14:29:35
+65 http GET https://registry.npmjs.org/url
+66 verbose url raw http
+67 verbose url resolving [ 'https://registry.npmjs.org/', './http' ]
+68 verbose url resolved https://registry.npmjs.org/http
+69 info trying registry request attempt 1 at 14:29:35
+70 http GET https://registry.npmjs.org/http
+71 http 404 https://registry.npmjs.org/fs
+72 silly registry.get cb [ 404,
+72 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+72 silly registry.get     date: 'Thu, 03 Oct 2013 18:29:36 GMT',
+72 silly registry.get     'content-type': 'application/json',
+72 silly registry.get     'content-length': '52',
+72 silly registry.get     'cache-control': 'must-revalidate' } ]
+73 silly lockFile d8bf140d-fs fs@*
+74 silly lockFile d8bf140d-fs fs@*
+75 http 404 https://registry.npmjs.org/http
+76 silly registry.get cb [ 404,
+76 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+76 silly registry.get     date: 'Thu, 03 Oct 2013 18:29:36 GMT',
+76 silly registry.get     'content-type': 'application/json',
+76 silly registry.get     'content-length': '52',
+76 silly registry.get     'cache-control': 'must-revalidate' } ]
+77 silly lockFile 67b29158-http http@*
+78 silly lockFile 67b29158-http http@*
+79 error 404 'fs' is not in the npm registry.
+79 error 404 You should bug the author to publish it
+79 error 404
+79 error 404 Note that you can also install from a
+79 error 404 tarball, folder, or http url, or git url.
+80 error System Darwin 12.4.0
+81 error command "node" "/usr/local/bin/npm" "install"
+82 error cwd /Users/rgpass/node_projects/node-beginner
+83 error node -v v0.10.15
+84 error npm -v 1.3.5
+85 error code E404
+86 verbose exit [ 1, true ]

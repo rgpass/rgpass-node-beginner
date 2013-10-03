@@ -1,0 +1,5 @@
+Run a node app
+$ node filename.js
+
+Install node-formidabble which allows for easy POST req handling
+$ npm install formidable

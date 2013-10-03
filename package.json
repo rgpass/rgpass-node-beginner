@@ -1,0 +1,13 @@
+{
+  "name": "rgpass-node-beginner",
+  "version": "0.0.1",
+  "description": "Going through the guide The Node Begineer",
+  "main": "index.js",
+  "dependencies": {
+  	"express": "~3.3.4"
+  },
+  "engines": {
+    "node": "0.10.15",
+    "npm": "1.3.5"
+  }
+}
